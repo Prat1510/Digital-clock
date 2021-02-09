@@ -41,7 +41,7 @@ architecture decoder of segmentdecoder is
 begin
     process(d)
         begin
-            case( d ) is
+            case(d) is
                 when "0000" => cd <= "1111110" ;
                 when "0001" => cd <= "1001111" ;
                 when "0010" => cd <= "0010010" ;   
